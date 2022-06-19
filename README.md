@@ -20,10 +20,12 @@ The Wiener filter is a method for improving photographs by removing blur.With th
 #### 4)Morphological operators
 Morphology refers to a group of image processing methods that work with pictures depending on their forms. There are four primary operations. 
 
-a) Dilation: White pixels dilate or expand, while black pixels contract. 
-b) Erosion: The opposite of dilation. 
-c) Erosion and then dilation are the first steps in the opening process. 
-d) Closure: Dilation followed by erosion.
+a) Dilation:
+   White pixels dilate or expand, while black pixels contract. 
+b) Erosion: 
+   The opposite of dilation. 
+c) Closure: 
+    Dilation followed by erosion.
 
 
 
