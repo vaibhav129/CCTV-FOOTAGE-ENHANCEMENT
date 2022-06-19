@@ -69,7 +69,7 @@ fprintf('Counter for weiner filter(brisque): %d \n',bricounterweiner);
 %psnr and snr seem to be the same
 for k = 1:imagerunner
  jpgFilename = sprintf('%d.jpeg', k);
- fullFileName = fullfile('/home/tangobeer/Desktop/ImageEnchancement/DataSet/robbery',jpgFilename);
+ fullFileName = fullfile('',jpgFilename);
  if exist(fullFileName, 'file')
  imageData = imread(fullFileName );
  imageDatagray=rgb2gray(imageData);
@@ -130,7 +130,7 @@ for k = 1:imagerunner
 end
 for k = 1:imagerunner
  jpgFilename = sprintf('%d.jpeg', k);
- fullFileName = fullfile('/home/tangobeer/Desktop/ImageEnchancement/DataSet/robbery',jpgFilename);
+ fullFileName = fullfile('',jpgFilename);
  if exist(fullFileName, 'file')
  imageData = imread(fullFileName );
  imageDatagray=rgb2gray(imageData);
@@ -189,7 +189,7 @@ for k = 1:imagerunner
 end
 for k = 1:imagerunner
  jpgFilename = sprintf('%d.jpeg', k);
- fullFileName = fullfile('/home/tangobeer/Desktop/ImageEnchancement/DataSet/robbery',jpgFilename);
+ fullFileName = fullfile('',jpgFilename);
  if exist(fullFileName, 'file')
  imageData = imread(fullFileName );
  imageDatagray=rgb2gray(imageData);
