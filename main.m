@@ -10,7 +10,7 @@ bricounterweiner=0;
 imagerunner=30;
 for k = 1:imagerunner
  jpgFilename = sprintf('%d.jpeg', k);
- fullFileName = fullfile('https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FImage&psig=AOvVaw3X8RyzTuPQeaoQYbil1mit&ust=1650398796551000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCJjK8OG0nvcCFQAAAAAdAAAAABAD',jpgFilename);
+ fullFileName = fullfile('',jpgFilename);
  if exist(fullFileName, 'file')
  imageData = imread(fullFileName);
  imageDatagray=rgb2gray(imageData);
